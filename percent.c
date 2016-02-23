@@ -1,0 +1,16 @@
+#include<stdio.h>		//header file used for input/output operations
+
+main()	//function main gets called first by default
+
+{
+	int a,b,c,d,e;
+	float f;
+	
+	printf("Enter marks in 5 subjects\n");
+	scanf("%d%d%d%d%d",&a,&b,&c,&d,&e);	//input marks
+	
+	f=( (float)(a+b+c+d+e) )/5;			//get percentge
+	
+	printf("Percentage = %f",f);printf("\n");	//display result after calculation
+	
+}		//end of main
